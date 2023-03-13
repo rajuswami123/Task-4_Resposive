@@ -1,0 +1,87 @@
+.box {
+    width: auto;
+    border: 1px solid black;
+background-color: aliceblue;
+    height: 70px;
+    margin: 2%;
+    text-align: center;
+    
+
+}
+#c1{
+    line-height: 70px;
+}
+
+.box1 {
+    background-color: aliceblue;
+    width: 47%;
+    height: 9.5em;
+    border: 1px solid black;
+     margin: 0% 2% 2% 2% ;
+    text-align: center;
+}
+#h
+{
+    line-height: 9.5em;
+}
+
+
+.box2 {
+    width: 45%;
+    height: 19em;
+    border: 1px solid black;
+    float: right;
+   text-align: center;
+    background-color: aliceblue;
+    margin: 0% 2% 2% 2% ;
+
+}
+#c3{
+    line-height: 19.40em;
+}
+
+.box3 {
+     
+    width:auto;
+    background-color: aliceblue;
+    border: 1px solid black;
+    height: 70px;
+    text-align: center;
+    margin: 2% ;
+
+    
+}
+#c4{
+    line-height: 70px;
+}
+div{
+    font-size: 4vw;
+  }
+  
+ 
+@media screen and (max-width : 768px){
+body ,.box, .box1, .box2, .box3 {
+    color: chartreuse;
+    overflow: scroll;
+}
+}
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    body ,.box, .box1, .box2, .box3{
+        color: darkorchid;
+    }
+    }
+@media screen and (min-width : 1024px){
+        body ,.box, .box1, .box2, .box3{
+            color: deeppink;
+        }
+        } 
+        @media (max-width :173px){
+            .box1{
+                float: left;
+            }
+            .box2{
+                float: left;
+            }
+            
+        }
+    
